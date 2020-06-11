@@ -1,0 +1,272 @@
+
+/* General Settings */
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 45px 175px 0;
+  color: hsl(233, 12%, 13%);
+  overflow-x: hidden;
+}
+
+/* nav Bar */
+nav {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.navbar-nav {
+  margin-left: 175px;
+}
+
+li {
+  margin-right: 15px;
+}
+
+.invite-btn {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  box-shadow: 0 15px 5px 1px hsl(12, 88%, 90%);
+}
+
+.invite-btn:hover {
+  opacity: 0.5;
+}
+
+.bg-tablet-pattern{
+  position: absolute;
+  top: -150px;
+  right: -125px;
+  z-index: -1;
+}
+
+/* intro-section */
+.main-heading {
+  text-align: left;
+  font-size: 60px;
+  font-weight: 700;
+  width: 100%;
+  margin: 100px 0 25px 0;
+}
+
+.sub-heading {
+  width: 50%;
+  text-align: left;
+  color: hsl(227, 12%, 61%);
+  margin-bottom: 50px;
+}
+
+.btn-2 {
+  box-shadow: 0 10px 5px 1px hsl(13, 100%, 96%);
+  margin-right: 425px;
+}
+
+.illustration-intro {
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+/* Features-section */
+.Features {
+  text-align: left;
+  position: relative;
+  margin: 100px auto 50px;
+}
+
+.feature-heading {
+  width: 85%;
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(228, 39%, 23%);
+  margin-bottom: 35px;
+}
+
+.feature-intro {
+  width: 55%;
+  color: hsl(227, 12%, 61%);
+}
+
+span {
+  padding: 4px 20px 8px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+.feature-1, .feature-2, .feature-3 {
+  padding: 15px 0 25px 85px;
+  width: 85%;
+  color: hsl(227, 12%, 61%);
+}
+
+.bg-feature-section {
+  position: absolute;
+  z-index: -1;
+  left: -600px;
+  top: 275px;
+}
+
+/* testimonials -section */
+.testimonials {
+  background-color: hsl(0, 0%, 98%);
+  width: 100%;
+}
+
+.testimonial-title {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.testimonial-name {
+  margin: 25px auto;
+}
+
+.testimonial-msg {
+  width: 25%;
+  margin: 0 auto ;
+  color: hsl(227, 12%, 61%);
+}
+
+.btn-3 {
+  margin: 25px auto;
+}
+
+/* Simplify-section */
+.simplify {
+  width: 1600px;
+  background-color: hsl(12, 88%, 59%);
+  margin: 50px 0 0 -175px;
+  width: 1550px;
+  padding: 50px 0 50px 175px;
+  display: flex;
+}
+
+.simplify-heading {
+  text-align: left;
+  width: 35%;
+  color: hsl(0, 0%, 98%);
+}
+
+.btn-4 {
+  background-color: white;
+  color: hsl(12, 88%, 59%);
+  box-shadow: 0 15px 5px 1px hsl(13, 100%, 50%);
+  margin-left: 550px;
+  height: 45px;
+}
+
+/* footer */
+footer {
+  background-color: hsl(233, 12%, 13%);
+  color: white;
+  width: 1550px;
+  margin-left: -175px;
+  padding: 50px 50px 0;
+}
+
+.footer-nav:hover {
+  color: hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+.contact-us {
+  margin-bottom: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 25px;
+ }
+
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
+
+/* Email Validation */
+.rounded-field {
+  border: 1px solid #969696;
+  border-radius: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 5px 15px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+.btn-5 {
+  box-shadow: none;
+}
+.btn-5:link , .btn-5:visited {
+  text-decoration: none;
+}
+
+.btn-5:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.btn-5:active {
+  transform: translateY(-1px);
+}
+
+.btn-5-dynamic-margin {
+  margin-top: 40px;
+  /* transition: all .4s; */
+}
+
+.valid {
+  border: 1px solid #00FF00;
+}
+
+.invalid {
+  border: 1px solid #FF5263;
+}
+
+.error-msg {
+  display: inline-block;
+}
+
+.form {
+  position: relative;
+  z-index: +1;
+}
+
+.form::before {
+  content: 'Please provide a valid email address.';
+  text-align: justify;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 100%;
+  font-size: 12px;
+  font-style: italic;
+  color: #FF5263;
+
+}
+
+.col {
+  padding: 0
+}
+
+/* icons */
+.social-icons {
+  margin-top: 90px;
+}
+
+i {
+  padding: 5px;
+}
+
+i:hover {
+  color: hsl(12, 88%, 59%);
+}
